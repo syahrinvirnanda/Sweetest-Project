@@ -1,3 +1,6 @@
+import os
+from os.path import join, dirname
+from dotenv import load_dotenv
 from pymongo import MongoClient
 import jwt
 from datetime import datetime, timedelta
